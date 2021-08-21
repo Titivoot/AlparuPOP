@@ -25,7 +25,7 @@
      mouseDown = true;
      pop = pop + 1;
      sound.play();
-     popText = pop % 100 ? pop : 'POPALPARU!';
+     popText = pop % 100 ? pop.toLocaleString() : 'POPALPARU!';
   }}
   on:mouseup={() => {
     mouseDown = false;
@@ -44,7 +44,7 @@
     mouseDown = true;
      pop = pop + 1;
      sound.play();
-    popText = pop % 100 ? pop : 'POPALPARU!';
+    popText = pop % 100 ? pop.toLocaleString() : 'POPALPARU!';
   }}
   on:touchend={() => {
     mouseDown = false;
