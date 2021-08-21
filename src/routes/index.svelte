@@ -19,6 +19,8 @@
 		duration: 1000,
 		easing: cubicOut
 	});
+
+	total.set($count);
 </script>
 
 <svelte:head>
