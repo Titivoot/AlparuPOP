@@ -1,5 +1,4 @@
 <script lang="ts">
-	export const ssr = false;
 	import DeviceDetector from '../DeviceDetector.svelte';
 	import Howler from 'howler';
 	import { tweened } from 'svelte/motion';
