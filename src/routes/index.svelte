@@ -47,11 +47,13 @@
 			<div class="text text-white text-center text-3xl font-medium select-none">
 				{$count === 0 ? '0' : $count % 100 ? Math.round($total).toLocaleString() : 'POPALPARU!'}
 			</div>
+      <div>
 			<img
 				class="w-full h-full select-none my-10"
 				src={mouseDown ? AlparuB : AlparuA}
 				alt="alparu"
 			/>
+      </div>
 		</div>
 	</div>
 </DeviceDetector>
